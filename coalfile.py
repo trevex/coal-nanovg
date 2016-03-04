@@ -1,5 +1,5 @@
 from coal import CoalFile
-from util import download, unzip, default_cmake_build, cp, pkg_config, abspath, glob
+from util import cp, git_clone, glob
 from os import path
 
 class NanovgFile(CoalFile):
